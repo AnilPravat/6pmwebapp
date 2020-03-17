@@ -25,7 +25,7 @@ pipeline{
                 branch 'staging'
             }
             steps{
-                echo "deploy to uat server"
+                echo "deploy to uat server when development server completed"
             }
         }
 
