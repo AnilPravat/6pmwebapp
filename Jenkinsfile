@@ -34,7 +34,7 @@ pipeline{
                 branch 'master'
             }
             steps{
-                echo "deploy to prod server"
+                echo "deploy to prod server when uat server completed"
             }
         }
     }
